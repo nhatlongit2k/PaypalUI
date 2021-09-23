@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable-v24/background1.xml" value="0.22135416666666666" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable-v24/background2.xml" value="0.22135416666666666" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable-v24/background3_line.xml" value="0.22135416666666666" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable-v24/background_hoy.xml" value="0.22135416666666666" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable-v24/dashboard_card.xml" value="0.22135416666666666" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1824074074074074" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable-v24/ic_settings_black_18_dp.xml" value="0.22135416666666666" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable/background_delete.xml" value="0.3828125" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable/background_enviar.xml" value="0.3828125" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable/background_money.xml" value="0.3828125" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable/background_remove.xml" value="0.3828125" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable/background_repair.xml" value="0.3828125" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable/background_top_card.xml" value="0.3828125" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable/ic_add_black_18_dp.xml" value="0.3828125" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable/ic_assignment_returned_black_18_dp.xml" value="0.3828125" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable/ic_assignment_returned_black_18_dp_copy.xml" value="0.3828125" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable/ic_bitmap_copy.xml" value="0.3828125" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable/ic_create_black_18_dp_2.xml" value="0.3828125" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable/ic_delete_outline_black_18_dp.xml" value="0.3828125" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable/ic_group_6.xml" value="0.3828125" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable/ic_group_8.xml" value="0.3828125" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable/ic_keyboard_arrow_right_black_18_dp_copy_2.xml" value="0.3828125" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1824074074074074" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable/ic_more_vert_black_18_dp.xml" value="0.3828125" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable/ic_path.xml" value="0.3828125" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable/ic_settings_black_18_dp.xml" value="0.3828125" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable/ic_shape.xml" value="0.3828125" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable/nitifi_user.xml" value="0.3828125" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable/shadow.xml" value="0.3828125" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/font/montserrat.xml" value="0.23541666666666666" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/layout-land/activity_cards.xml" value="0.31040564373897706" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/layout-land/activity_main.xml" value="0.31040564373897706" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/layout-land/activity_pay.xml" value="0.31040564373897706" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/layout-land/fragment_dashboard.xml" value="0.31040564373897706" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/layout/activity_cards.xml" value="0.36666666666666664" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/layout/activity_pay.xml" value="0.33" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/layout/fragment_dashboard.xml" value="0.33" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/layout/fragment_dashboard2.xml" value="0.20520833333333333" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/layout/fragment_dashboard_frangment_test.xml" value="0.1" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/layout/fragment_perfil.xml" value="0.1" />
+        <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/menu/bottom_menu.xml" value="0.20520833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PayActivity"
+    android:background="@color/pale_grey"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="16.7dp"
+                android:paddingTop="37dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_group_8" />
+
+                <TextView
+                    style="@style/TextStyle15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="6.7dp"
+                    tools:text="Revisar y enviar " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/background1"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="26dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="17dp"
+                        app:cardCornerRadius="90dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/bitmap_copy_5" />
+                    </androidx.cardview.widget.CardView>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="26dp"
+                        android:layout_marginRight="27dp"
+                        android:src="@mipmap/shape1" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="7dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingLeft="26dp">
+
+                        <TextView
+                            style="@style/TextStyle16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:text="David Paz " />
+
+                        <TextView
+                            style="@style/TextStyle17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:text="davidpaz@correo.com " />
+                    </LinearLayout>
+
+                    <TextView
+                        style="@style/TextStyle18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/background_money"
+                        android:paddingHorizontal="24dp"
+                        android:paddingVertical="8dp"
+                        tools:text="20,00€" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingLeft="26dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp">
+
+                        <TextView
+                            style="@style/TextStyle19"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mensaje " />
+
+                        <TextView
+                            style="@style/TextStyle20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:text="davidpaz@correo.com " />
+                    </LinearLayout>
+
+                    <TextView
+                        style="@style/TextStyle28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="39dp"
+                        tools:text="🎬" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="42dp"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/background1"
+                android:orientation="vertical"
+                android:paddingLeft="22dp"
+                android:paddingRight="14dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="25dp">
+
+                    <TextView
+                        style="@style/TextStyle21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="Tipo de pago " />
+
+                    <ImageView
+                        android:id="@+id/arrowrightback"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/ic_keyboard_arrow_right_black_18_dp_copy_2" />
+
+                    <TextView
+                        style="@style/TextStyle22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@id/arrowrightback"
+                        tools:text="Personal " />
+                </RelativeLayout>
+
+                <ImageView
+                    style="@style/line"
+                    android:layout_marginTop="21.6dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="12.5dp">
+
+                    <ImageView
+                        android:id="@+id/iconbbva"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_bitmap_copy" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/iconbbva"
+                        android:orientation="vertical"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="4dp">
+
+                        <TextView
+                            style="@style/TextStyle23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:text="BBVA" />
+
+                        <TextView
+                            style="@style/TextStyle24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:text="****9889" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/ic_keyboard_arrow_right_black_18_dp_copy_2" />
+                </RelativeLayout>
+
+                <ImageView
+                    style="@style/line"
+                    android:layout_marginTop="16.3dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="21.8dp"
+                    android:paddingRight="8dp">
+
+                    <TextView
+                        style="@style/TextStyle21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tarifas por transacción " />
+
+                    <TextView
+                        android:id="@+id/euro_money"
+                        style="@style/TextStyle25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        tools:text="0,00€ " />
+                </RelativeLayout>
+
+                <ImageView
+                    style="@style/line"
+                    android:layout_marginTop="20.5dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="24.5dp"
+                    android:paddingRight="8dp"
+                    android:paddingBottom="36dp">
+
+                    <TextView
+                        style="@style/TextStyle21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tú pagas" />
+
+                    <TextView
+                        style="@style/TextStyle26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        tools:text="20,00€ " />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TextStyle27"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/background_enviar"
+        android:paddingHorizontal="94dp"
+        android:paddingVertical="21dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="ENVIAR AHORA" />
+</androidx.constraintlayout.widget.ConstraintLayout>
