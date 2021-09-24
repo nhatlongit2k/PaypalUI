@@ -42,7 +42,8 @@
         android:backgroundTint="@color/cerulean_blue"
         android:src="@drawable/ic_assignment_returned_black_18_dp_copy"
         app:layout_anchor="@id/bottomNavigationView"
-        app:tint="@color/white" />
+        app:tint="@color/white"
+        android:contentDescription="TODO" />
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
