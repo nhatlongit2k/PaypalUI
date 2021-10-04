@@ -38,7 +38,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingLeft="6.7dp"
-                    tools:text="Revisar y enviar " />
+                    android:text="Revisar y enviar " />
             </LinearLayout>
 
             <LinearLayout
@@ -91,13 +91,13 @@
                             style="@style/TextStyle16"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            tools:text="David Paz " />
+                            android:text="David Paz " />
 
                         <TextView
                             style="@style/TextStyle17"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            tools:text="davidpaz@correo.com " />
+                            android:text="davidpaz@correo.com " />
                     </LinearLayout>
 
                     <TextView
@@ -109,7 +109,7 @@
                         android:background="@drawable/background_money"
                         android:paddingHorizontal="24dp"
                         android:paddingVertical="8dp"
-                        tools:text="20,00€" />
+                        android:text="20,00€" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -126,6 +126,7 @@
 
                         <TextView
                             style="@style/TextStyle19"
+                            android:textStyle=""
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Mensaje " />
@@ -134,7 +135,7 @@
                             style="@style/TextStyle20"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            tools:text="davidpaz@correo.com " />
+                            android:text="Este es el dinero de la entradas… " />
                     </LinearLayout>
 
                     <TextView
@@ -144,16 +145,17 @@
                         android:layout_alignParentRight="true"
                         android:layout_marginTop="30dp"
                         android:layout_marginRight="39dp"
-                        tools:text="🎬" />
+                        android:text="🎬" />
                 </RelativeLayout>
 
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/layoutTipo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="17dp"
-                android:layout_marginTop="42dp"
+                android:layout_marginTop="40dp"
                 android:layout_marginRight="18dp"
                 android:background="@drawable/background1"
                 android:orientation="vertical"
@@ -169,7 +171,7 @@
                         style="@style/TextStyle21"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        tools:text="Tipo de pago " />
+                        android:text="Tipo de pago " />
 
                     <ImageView
                         android:id="@+id/arrowrightback"
@@ -183,7 +185,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_toLeftOf="@id/arrowrightback"
-                        tools:text="Personal " />
+                        android:text="Personal " />
                 </RelativeLayout>
 
                 <ImageView
@@ -213,13 +215,13 @@
                             style="@style/TextStyle23"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            tools:text="BBVA" />
+                            android:text="BBVA" />
 
                         <TextView
                             style="@style/TextStyle24"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            tools:text="****9889" />
+                            android:text="****9889" />
                     </LinearLayout>
 
                     <ImageView
@@ -251,7 +253,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        tools:text="0,00€ " />
+                        android:text="0,00€ " />
                 </RelativeLayout>
 
                 <ImageView
@@ -261,9 +263,9 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingTop="24.5dp"
+                    android:paddingTop="20dp"
                     android:paddingRight="8dp"
-                    android:paddingBottom="36dp">
+                    android:paddingBottom="30dp">
 
                     <TextView
                         style="@style/TextStyle21"
@@ -276,24 +278,24 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        tools:text="20,00€ " />
+                        android:text="20,00€ " />
                 </RelativeLayout>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txEnviar"
         style="@style/TextStyle27"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_gravity="center"
-        android:layout_marginBottom="48dp"
         android:background="@drawable/background_enviar"
         android:paddingHorizontal="94dp"
         android:paddingVertical="21dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="ENVIAR AHORA"
+        android:layout_marginBottom="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:text="ENVIAR AHORA" />
+        app:layout_constraintBottom_toBottomOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

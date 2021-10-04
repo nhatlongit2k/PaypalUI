@@ -19,13 +19,13 @@
                 android:orientation="horizontal"
                 android:weightSum="10">
                 <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
                     app:cardCornerRadius="90dp">
                     <ImageView
                         android:layout_weight="1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
                         android:src="@mipmap/bitmap_copy_2"/>
                 </androidx.cardview.widget.CardView>
                 <ImageView
@@ -34,14 +34,15 @@
                     android:background="@drawable/notifi_user"/>
                 <ImageView
                     android:layout_weight="8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_width="117dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
                     android:src="@mipmap/group1"/>
                 <ImageView
                     android:layout_weight="1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:paddingRight="3.9dp"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
                     android:src="@drawable/ic_settings_black_18_dp"/>
             </LinearLayout>
 
@@ -80,17 +81,19 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="20,00€"/>
+
                     <TextView
+                        android:layout_marginTop="12dp"
                         style="@style/TextStyle2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginBottom="23dp"
                         android:background="@drawable/background2"
-                        android:paddingTop="7dp"
                         android:paddingLeft="21dp"
+                        android:paddingTop="7dp"
                         android:paddingRight="18dp"
                         android:paddingBottom="8dp"
-                        android:text="VER DETALLES"
-                        android:layout_marginBottom="23dp"/>
+                        android:text="VER DETALLES" />
                 </LinearLayout>
 
                 <RelativeLayout
@@ -154,14 +157,13 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="40.1dp"
                 android:paddingTop="19dp">
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:gravity="center"
-                    android:layout_marginLeft="24.9dp">
+                    android:layout_marginLeft="21dp">
                     <androidx.cardview.widget.CardView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -172,10 +174,11 @@
                             android:src="@mipmap/bitmap_copy"/>
                     </androidx.cardview.widget.CardView>
                     <TextView
-                        style="@style/TextStyle5"
+                        style="@style/TextStyle11"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:shadowColor="#80000000"
+                        android:layout_marginTop="9dp"
                         android:shadowDx="0"
                         android:shadowDy="1"
                         android:shadowRadius="3"
@@ -186,7 +189,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:gravity="center"
-                    android:layout_marginLeft="31dp">
+                    android:layout_marginLeft="30dp">
                     <androidx.cardview.widget.CardView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -197,10 +200,11 @@
                             android:src="@mipmap/bitmap_copy_3"/>
                     </androidx.cardview.widget.CardView>
                     <TextView
-                        style="@style/TextStyle5"
+                        style="@style/TextStyle11"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:shadowColor="#80000000"
+                        android:layout_marginTop="9dp"
                         android:shadowDx="0"
                         android:shadowDy="1"
                         android:shadowRadius="3"
@@ -211,7 +215,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:gravity="center"
-                    android:layout_marginLeft="38dp">
+                    android:layout_marginLeft="35dp">
                     <androidx.cardview.widget.CardView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -222,10 +226,11 @@
                             android:src="@mipmap/bitmap_copy_4"/>
                     </androidx.cardview.widget.CardView>
                     <TextView
-                        style="@style/TextStyle5"
+                        style="@style/TextStyle11"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:shadowColor="#80000000"
+                        android:layout_marginTop="9dp"
                         android:shadowDx="0"
                         android:shadowDy="1"
                         android:shadowRadius="3"
@@ -236,7 +241,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:gravity="center"
-                    android:layout_marginLeft="34dp">
+                    android:layout_marginLeft="30dp">
                     <androidx.cardview.widget.CardView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -247,10 +252,11 @@
                             android:src="@mipmap/bitmap_copy_5"/>
                     </androidx.cardview.widget.CardView>
                     <TextView
-                        style="@style/TextStyle5"
+                        style="@style/TextStyle11"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:shadowColor="#80000000"
+                        android:layout_marginTop="9dp"
                         android:shadowDx="0"
                         android:shadowDy="1"
                         android:shadowRadius="3"
@@ -263,12 +269,13 @@
                 android:layout_marginLeft="17.9dp"
                 android:layout_marginRight="21.1dp"
                 android:layout_marginTop="34dp">
+
                 <TextView
                     style="@style/TextStyle4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Actividad"
-                    android:layout_alignParentLeft="true"/>
+                    android:layout_alignParentLeft="true"
+                    android:text="Actividad" />
                 <TextView
                     style="@style/TextStyle6"
                     android:layout_width="wrap_content"
@@ -284,6 +291,7 @@
                 android:layout_marginLeft="13.9dp"
                 android:layout_marginRight="21.1dp"
                 android:layout_marginBottom="23dp"
+                android:layout_marginTop="17dp"
                 android:paddingVertical="17dp"
                 android:paddingHorizontal="19dp"
                 android:orientation="vertical">

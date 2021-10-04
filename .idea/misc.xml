@@ -3,6 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/LongTienSinh/Desktop/PaypalUI/PaypalUI/app/src/main/res/drawable/background_delete.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/LongTienSinh/Desktop/PaypalUI/PaypalUI/app/src/main/res/drawable/background_remove.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/LongTienSinh/Desktop/PaypalUI/PaypalUI/app/src/main/res/drawable/background_repair.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/LongTienSinh/Desktop/PaypalUI/PaypalUI/app/src/main/res/drawable/ic_delete_outline_black_18_dp.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/LongTienSinh/Desktop/PaypalUI/PaypalUI/app/src/main/res/layout-land/activity_cards.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/LongTienSinh/Desktop/PaypalUI/PaypalUI/app/src/main/res/layout-land/activity_main.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/LongTienSinh/Desktop/PaypalUI/PaypalUI/app/src/main/res/layout-land/activity_pay.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/LongTienSinh/Desktop/PaypalUI/PaypalUI/app/src/main/res/layout/activity_cards.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/LongTienSinh/Desktop/PaypalUI/PaypalUI/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/LongTienSinh/Desktop/PaypalUI/PaypalUI/app/src/main/res/layout/activity_pay.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/LongTienSinh/Desktop/PaypalUI/PaypalUI/app/src/main/res/layout/fragment_dashboard.xml" value="0.3625" />
+        <entry key="..\:/Users/LongTienSinh/Desktop/PaypalUI/PaypalUI/app/src/main/res/layout/fragment_perfil.xml" value="0.36666666666666664" />
         <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable-v24/background1.xml" value="0.22135416666666666" />
         <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable-v24/background2.xml" value="0.22135416666666666" />
         <entry key="..\:/baitap/AndroidTrainning/BaiTap/PaypalUI/app/src/main/res/drawable-v24/background3_line.xml" value="0.22135416666666666" />
